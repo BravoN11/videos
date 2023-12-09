@@ -5,8 +5,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style>
+    body, h1, .NavBar {
+    font-family: "Montserrat", sans-serif;
+    background-color: #e1e1df;
+    color: #2b324d;
+  }
+
+  img {
+    margin-bottom: -7px;
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+
+  /* Center the video */
+  #portfolio {
+    text-align: center;
+  }
+
+  /* Add space above the video */
+  #video-container {
+    margin-top: 20px; /* Adjust this value to add more or less space */
+  }
+
+  iframe {
+    width: 80%; /* Set the width of the video */
+    max-width: 800px; /* Set the maximum width if the screen is large */
+    height: 450px; /* Set the height of the video */
+  }
+
+  /* Style for the description box */
+  #Content {
+    background-color: #5d657e;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #e1e1df;
+  }
+  footer {
+    background-color: #f4f4f4;
+    padding: 64px 0;
+    text-align: center;
+    opacity: 0.8;
+    font-size: x-large;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: medium;
+  }
+
+.w3-bar {
+    background-color: #2b324d;
+    padding: 10px;
+    letter-spacing: 4px;
+}
+</style>
 <body>
 
   <!-- Nav Bar -->
@@ -28,7 +87,48 @@
 
   <!-- Page content -->
   <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
-    <!-- First Video description -->
+     <!-- First Video description -->
+     <div id="Content">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <h2>Mt Bachelor</h2>
+            <p>Going down Mt Bachelor during a windy and cloudy day.</p>
+        </div>
+    </div>
+
+    <!-- first Video -->
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pEnxGjfDOvU?si=dQ2Drf_BYPwPJ8vp&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+     <!-- Second Video description -->
+     <div id="Content">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <h2>Beginner Snowboarding tips</h2>
+            <p>This is a video showcasing snowboarding adventures in the Pacific Northwest. Enjoy the breathtaking views and exciting moments!</p>
+        </div>
+    </div>
+
+    <!-- Second Video -->
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OARzXHfehwY?si=ddqDZLvUxwe1Ls8N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+     <!-- Third Video description -->
+     <div id="Content">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <h2>Beginner Snowboarding tips</h2>
+            <p>This is a video showcasing snowboarding adventures in the Pacific Northwest. Enjoy the breathtaking views and exciting moments!</p>
+        </div>
+    </div>
+
+    <!-- Third Video -->
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LrbUBYOr2nk?si=z6TaS6euahBbeEZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+    <!-- Fourth Video description -->
     <div id="Content">
         <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
             <h2>Beginner Snowboarding tips</h2>
@@ -36,13 +136,13 @@
         </div>
     </div>
 
-    <!-- first Video -->
+    <!-- Fourth Video -->
     <div id="video-container">
       <iframe src="https://www.youtube.com/embed/3GHU3DN1v4Q?si=C5ZvfTH_yRkwuXeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
   <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
-    <!-- Second Video description -->
+    <!-- fifth Video description -->
     <div id="Content">
         <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
             <h2>Improve your skills!</h2>
@@ -50,11 +150,21 @@
         </div>
     </div>
 
-    <!-- Second Video -->
+    <!-- fifth Video -->
     <div id="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/w9KuTkeNQfY?si=4bA4Es-wE7mxEqDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
+<!-- END of Page Content -->
+  <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <a href="https://facebook.com" target="_blank" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="https://instagram.com" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
+    <a href="https://snapchat.com" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
+    <a href="https://pinterest.com" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
+    <a href="https://twitter.com" target="_blank" class="fa fa-twitter w3-hover-opacity"></a>
+    <a href="https://linkedin.com" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a>
+  </footer>
   
 </body>
 </html>
